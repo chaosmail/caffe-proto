@@ -6,7 +6,8 @@
   "types": "dist/caffe.d.ts",
   "unpkg": "dist/caffe.min.js",
   "scripts": {
-    "publish-npm": "npm install && gulp build && npm publish"
+    "build": "npm install && sh run.sh",
+    "publish-npm": "npm publish"
   },
   "repository": {
     "type": "git",
