@@ -1,0 +1,24 @@
+{
+  "name": "caffe-proto",
+  "version": "0.1.0",
+  "description": "Caffe Protobuf definition for JavaScript",
+  "main": "dist/caffe.js",
+  "types": "dist/caffe.d.ts",
+  "unpkg": "dist/caffe.min.js",
+  "scripts": {
+    "publish-npm": "npm install && gulp build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaosmail/caffe-proto.git"
+  },
+  "keywords": [
+    "caffe",
+    "protobuf"
+  ],
+  "author": "Christoph Koerner",
+  "license": "MIT",
+  "dependencies": {
+    "protobufjs": "^6.8.3"
+  }
+}
